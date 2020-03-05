@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color:rgba(0,0,0,0.1);
+}
+
+.video,.summary{
+  width:100vw;
+}
+.summary{
+  text-align:center;
+}
+
+.projects{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+.project{
+  background-color:teal;
+  width:1fr;
+  height:300px;
+  text-align:center;
+}
+
+a,a:visited,a:hover{
+  text-decoration:none;
+}
+
+button{
+  width:5em;
+  height:2em;
+  font-size:1.6em;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  height:60vh;
+  margin: 1rem;
+  position: relative;
+  width: 95%;
+}
+
+.card-img{
+  margin-top:10px;
+  height:100px;
+  width:100px;
+  border-radius:10px;
+}
+
+.card-1 {
+  box-shadow: 0 10px 16px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
