@@ -7,43 +7,43 @@
   <title>Shubham Shah- Software Engineer</title>
 </head>
 <body>
-  <div class="video"></div>
-  <div class="summary"></div>
-  <h1>Projects</h1>
-  <div class="projects">
-    <div class="project card card-1">
-      <img class="card-img" src="./assets/trello.jpg" alt="trello-logo">
-      <h1>Trello-Clone</h1>
-      <p>
-      <a href="https://github.com/shubhamcanmakecommit/trelloclone.git">
-        <button class="icon">
-          <i class="fab fa-github-square fa-lg"></i>
-        </button>
-      </a>
-      <a href="https://atlassian-trello-clone.herokuapp.com/"><button id="view-app">View App</button></a>
-      </p>
-      <p><b>Libraries and frameworks</b></p>
-      <hr>
-      <p>React, Redux, Redux-Persist, Material UI, styled-components</p>
-    </div>
-   <!--------this element is reapiting----------------------------> 
-    <div class="project card card-1">
-      <img class="card-img" src="./assets/pathfinderlogo.png" alt="trello-logo">
-      <h1>Path finding Algorithm</h1>
-      <p>
-      <a href="https://shubhamcanmakecommit.github.io/pathfinder/">
-        <button class="icon">
-          <i class="fab fa-github-square fa-lg"></i>
-        </button>
-      </a>
-      <a href="https://github.io/shubhamcanmakecommit/pathfinder"><button id="view-app">View App</button></a>
-      </p>
-      <p><b>Libraries and frameworks</b></p>
-      <hr>
-      <p>Written purely in Vanilla JS</p>
-    </div>
-    <!--------this element is reapiting--------------------------->
+  <script src="assets/handlebars.runtime.min-v4.7.3.js"></script>
+  <div class="summary">
+    <ul>
+      <h1>About me</h1><hr />
+      <li>Full Stack Engineer focussed on Frontend</li>
+      <li>Open Source Contributor</li>
+      <h1>Knows</h1><hr />
+      <li>Frontend: React, Redux, NodeJS, TypeScript</li>
+      <li>Databases: Postgres, mySQL, MongoDB</li>
+      <li>Backend: NodeJS, Django </li>
+    </ul>
   </div>
-
+  <h1>Projects</h1><hr />
+  <div id="projects">
+   <!--------this element is repiting----------------------------> 
+    <!--------this element is repiting--------------------------->
+  </div>
+  <script src="assets/handlebars-v4.7.3.js"></script>
+  <script id="project-template" type="text/x-handlebars-template">
+    {{#each projects}}
+      <div class="project card card-1">
+        <img class="card-img" src={{img_src}} alt={{img_alt}}>
+        <h1>{{title}}</h1>
+        <p>
+        <a href={{github_link}}>
+          <button class="icon">
+            <i class="fab fa-github-square fa-lg"></i>
+          </button>
+        </a>
+        <a href={{app_link}}><button id="view-app">View App</button></a>
+        </p>
+        <p><b>Libraries and frameworks</b></p>
+        <hr>
+        <p>{{technology}}</p>
+      </div>
+    {{/each}}
+  </script>
+  <script type="text/javascript" src="index.js"></script>  
 </body>
 </html>

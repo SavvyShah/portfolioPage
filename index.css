@@ -5,20 +5,22 @@ body{
   background-color:rgba(0,0,0,0.1);
 }
 
-.video,.summary{
-  width:100vw;
-}
-.summary{
-  text-align:center;
+.video,.summary,h1{
+  text-align: center;
+  margin-left: -22px;
 }
 
-.projects{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
+.summary>ul{
+  list-style-type: none;
+}
+
+#projects{
+  display:flex;
+  flex-wrap: wrap;
 }
 .project{
   background-color:teal;
-  width:1fr;
+  width: 340px;
   height:300px;
   text-align:center;
 }
@@ -31,6 +33,7 @@ button{
   width:5em;
   height:2em;
   font-size:1.6em;
+  cursor: pointer;
 }
 
 .card {
@@ -40,7 +43,6 @@ button{
   height:60vh;
   margin: 1rem;
   position: relative;
-  width: 95%;
 }
 
 .card-img{
