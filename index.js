@@ -24,7 +24,7 @@ var data = {
       img_src: "./assets/tweet.png",
       img_alt: "10 second tweet",
       github_link: "https://github.com/ShubhamCanMakeCommit/tenSecondTweet.git",
-      app_link: "https://ten-trello-clone.herokuapp.com"
+      app_link: "https://ten-seconds-tweet-2y9n8ebmf.now.sh/"
     }
   ]
 } 
