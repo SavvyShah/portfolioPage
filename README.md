@@ -1,2 +1,2 @@
 this site is live on 
-https://shubhamcanmakecommit.github.io/portfoliopage
+https://shubhamcanmakecommit.github.io/portfolioPage
