@@ -1000,13 +1000,12 @@ table th {
 
 #spotlight {
     display: flex;
-    min-height: 55vh;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 93%;
     margin: auto;
-    font-size: 1.5rem
+    margin-top: 0px;
+    font-size: 1.5rem;
+    height: 60%;
+    justify-content: space-between;
 }
 
 #spotlight.error-404 {
@@ -1063,7 +1062,6 @@ p.img-404 svg {
 
 #home-center {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center
 }
@@ -1107,7 +1105,7 @@ p.img-404 svg {
     text-align: center;
     font-size: .6em;
     line-height: normal;
-    opacity: .6
+    opacity: .6;
 }
 
 #home-footer p {
