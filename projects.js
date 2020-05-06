@@ -5,7 +5,7 @@ var data = {
     {
       title: 'GRUKARYA',
       technology: 'React-Redux-Firebase-Material UI',
-      img_src: './assets/Grukarya.png',
+      img_src: './assets/GRUKARYA.png',
       img_alt: 'GRUKARYA APP',
       github_link: 'https://github.com/ShubhamCanMakeCommit',
       app_link: 'https://grukarya-40757.web.app/'
