@@ -94,6 +94,7 @@ h1 {
 #projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .project {
   background-color: teal;
@@ -108,11 +109,15 @@ a:hover {
   text-decoration: none;
 }
 
-button {
+a > button {
   width: 5em;
   height: 2em;
   font-size: 1.6em;
   cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #252d3e;
+  border-radius: 10px;
 }
 
 .card {
@@ -121,7 +126,7 @@ button {
   border-radius: 5px;
   display: inline-block;
   padding: 5px;
-  margin: 1rem;
+  margin: 20px;
   position: relative;
   color: black;
   height: fit-content;
