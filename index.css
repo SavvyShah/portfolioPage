@@ -8,14 +8,59 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #494f5c;
   color: #e8eef2;
+  margin: 0px;
 }
-
+#spotlight {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 1.5rem;
+  height: 60%;
+  justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 #container {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+a {
+  color: #e8eef2;
+  text-decoration: none;
+  border: none;
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.centered {
+  margin: 20px auto 0px auto;
+}
+#home-footer {
+  text-align: center;
+  font-size: 0.6em;
+  line-height: normal;
+  opacity: 0.6;
+}
+#home-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home-title {
+  margin: 0;
+  text-align: center;
+}
 #profile-photo {
   display: block;
   margin: auto;
@@ -40,7 +85,12 @@ h1 {
   position: relative;
   left: 50px;
 }
-
+#fancy-slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #projects {
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +143,9 @@ button {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), 0 10px 10px rgba(0, 0, 0, 0.6);
 }
 
+.link-icon {
+  width: 40px;
+}
 #fancy-about-me {
   background-color: #494f5c;
   font-style: normal;
@@ -131,6 +184,7 @@ button {
   animation-delay: 1s;
   text-align: center;
 }
+
 @keyframes move {
   0% {
     top: 0px;
@@ -150,10 +204,4 @@ button {
   100% {
     top: 0px;
   }
-}
-#fancy-slider-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
