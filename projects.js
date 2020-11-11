@@ -8,15 +8,7 @@ var data = {
       img_src: './assets/GRUKARYA.png',
       img_alt: 'GRUKARYA APP',
       github_link: 'https://github.com/ShubhamCanMakeCommit',
-      app_link: 'https://grukarya-40757.web.app/'
-    },
-    {
-      title: 'Atlassian trello clone',
-      technology: 'Redux, React, Redux-Persist, Material-UI',
-      img_src: './assets/trello.jpg',
-      img_alt: 'trello logo',
-      github_link: 'https://github.com/ShubhamCanMakeCommit/trelloClone.git',
-      app_link: 'https://atlassian-trello-clone.herokuapp.com'
+      app_link: 'https://grukarya-40757.web.app/',
     },
     {
       title: 'Path Finding Algorithm',
@@ -24,18 +16,9 @@ var data = {
       img_src: './assets/pathfinderlogo.png',
       img_alt: 'path finder logo',
       github_link: 'https://github.com/ShubhamCanMakeCommit/pathFinder.git',
-      app_link: 'https://shubhamcanmakecommit.github.io/pathfinder'
+      app_link: 'https://shubhamcanmakecommit.github.io/pathfinder',
     },
-    {
-      title: '10 second Tweet',
-      technology: 'React, Redux, NextJS(SSR), Typescript',
-      img_src: './assets/tweet.png',
-      img_alt: '10 second tweet',
-      github_link:
-        'https://github.com/ShubhamCanMakeCommit/tenSecondTweet.git',
-      app_link: 'https://ten-seconds-tweet-2y9n8ebmf.now.sh/'
-    }
-  ]
+  ],
 }
 
 // Data
