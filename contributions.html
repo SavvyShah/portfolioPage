@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="./assets/all.css" />
+    <title>Shubham Shah- Software Engineer</title>
+  </head>
+  <body>
+    <h1>Contributions</h1>
+    <hr />
+    <div id="contributions"></div>
+    <script src="assets/handlebars-v4.7.3.js"></script>
+    <script id="project-template" type="text/x-handlebars-template">
+      {{#each projects}}
+        <div class='project card card-1'>
+          <img class='card-img' src={{img_src}} alt={{title}} />
+          <h1>
+            {{title}}
+          </h1>
+          <p>
+            <a href={{github_link}}>
+              <button class='icon'>
+                <i class='fab fa-github-square fa-lg'></i>
+              </button>
+            </a>
+          </p>
+        </div>
+      {{/each}}
+    </script>
+    <script type="text/javascript" src="contributions.js"></script>
+  </body>
+</html>
