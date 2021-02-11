@@ -10,7 +10,7 @@ var data = {
     },
     {
       title: 'Gitpay',
-      img_src: './assets/gitpay.png',
+      img_src: './assets/Gitpay.png',
       github_link:
         'https://github.com/worknenjoy/gitpay/pulls?q=is%3Apr+shubhamcanmakecommit+is%3Aclosed+',
     },
